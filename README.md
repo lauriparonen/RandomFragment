@@ -10,4 +10,5 @@ this is the best way to deal with them. Might also include bits from the I Ching
 
 This page omits the index number of the fragment - and this is a feature. 
 
-v001 or smth
+v001 or smth:
+contains some regex issues like having random ","s or " "s printed on the page on the occasion, but works mostly rather well.
