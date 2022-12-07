@@ -1,5 +1,4 @@
-// the content of the file. im lazy and will keep it ugly like this
-const html = `1 It is wise for those who hear, not me, but the universal Reason, to confess that all things are one.
+1 It is wise for those who hear, not me, but the universal Reason, to confess that all things are one.
 
 2 To this universal Reason which I unfold, although it always exists, men make themselves insensible, both before they have heard it and when they have heard it for the first time. For notwithstanding that all things happen according to this Reason, men act as though they had never had any experience in regard to it when they attempt such words and works as I am now relating, describing each thing according to its nature and explaining how it is ordered. And some men are as ignorant of what they do when awake as they are forgetful of what they do when asleep.
 
@@ -257,27 +256,4 @@ const html = `1 It is wise for those who hear, not me, but the universal Reason,
 
 129 Atonements.
 
-130 When defiled, they purify themselves with blood, just as if any one who had fallen into the mud should wash himself with mud!`;
-
-// Split the HTML file into an array of strings, using the numbers as the delimiter
-const fragments = html.split(/\d+/);
-
-// alt: split @ new line wherever paragraph changes
-//const fragments = html.split(/\r?\ n/);
-
-const fragmentsArray = [];
-
-// Loop through the sentences and add them to the array
-fragments.forEach(fragment => fragmentsArray.push(fragment.trim()));
-
-// Print the array of sentences
-// console.log(sentencesArray);
-
-// Generate a random index between 0 and the length of the sentencesArray
-const randomIndex = Math.floor(Math.random() * fragmentsArray.length);
-
-// Use the random index to retrieve a random sentence from the sentencesArray
-const randomFragment = fragmentsArray[randomIndex];
-
-// Print the random sentence to the console
-console.log(randomFragment);
+130 When defiled, they purify themselves with blood, just as if any one who had fallen into the mud should wash himself with mud!
