@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  font-family: Garamond-serif;
+  background-color: #255b5e;
+}
+
+button {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+
+  margin: -25px 0 0 -50px;
+  width: 100px;
+  height: 50px; 
+
+  /* Set the font size and color of the button text 
+    display: block;
+  margin: 0 auto;
+  
+
+  width: 200px;
+  height: 40px;
+  padding: 1px;*/
+  font-size: 10px;
+  font: Garamond;
+  color:#c2c8ea;
+
+  /* Set the background color and border radius of the button */
+  background-color: 	#39657c;
+  border-radius: 10px;
+  border-color: #7583d6;
+
+}
+
+#fragments-container {
+  
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+
+  background-color: #255b5e; /* 255b5e */
+  padding: 20px;
+}
+
+#fragments-container p {
+  /* Center the text inside the paragraph */
+  text-align: center;
+  /* Set the font size and color of the text */
+  font-size: 20px;
+  color: #c2c8ea;
+}
+
